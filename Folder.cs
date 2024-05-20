@@ -252,14 +252,14 @@ namespace FilesManagment
                     
                 }
 
-                else // מבנה היררכי לא שווה
+                else // hirachy structure is not equal
                 {
                     return false;
                 }
             }
 
 
-            else // האובייקט שבארגומנט הוא קובץ תוכן
+            else //the parameter is a content file 
             {
                 return false; 
             }
